@@ -4,10 +4,14 @@ import calendar
 import pandas as pd
 import numpy as np
 
+# specify available cities and their respective csv files here
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+
+# specify which months we have data for
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
+
 DAYS = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
 def get_filters():
