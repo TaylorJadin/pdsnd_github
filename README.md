@@ -1,15 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
+2019-05-21
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This python script allows you to interactively explore bikeshare data. The script asks the user for what city and time filters they would like to use, then calculates and displays various statistics. It then prints the raw data 5 lines at a time.
 
 ### Files used
-Include the files used
+Script: 
+ - `bikeshare.py`
+
+Data files:
+ - `chicago.csv`
+ - `new_york_city.csv`
+ - `washington.csv`
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Project idea and bikeshare data from the [Udacity Programming for Data Science Nanodegree Program](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
