@@ -5,7 +5,7 @@
 Bikeshare Project
 
 ### Description
-This python script allows you to interactively explore bikeshare data. The script asks the user for what city and time filters they would like to use, then calculates and displays various statistics. It then prints the raw data 5 lines at a time.
+This python script allows you to interactively explore bikeshare data. The script asks the user for what city and time filters they would like to use, then calculates and displays various statistics. It then prints the raw data 5 lines at a time, asking the user every five lines when they are finished. This script loads data from specified CSV files into a pandas DataFrame for analysis.
 
 ### Files used
 Script: 
