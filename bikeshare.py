@@ -26,7 +26,7 @@ def get_filters():
     cities_str = ", ".join(cities[:-1]).title() + ', or ' + cities[-1].title()
     while city not in cities:
         try:
-            city = input('\nChoose a city you would like to see data for:\n    ' + cities_str + '\n').lower().strip()
+            city = input('\nChoose a city you would like to see data for:\n    {}\n'.format(cities_str)).lower().strip()
             if city not in cities:
                 print('\nInvalid city: Please type the name of a city from the list')
         except Exception as e:
@@ -38,7 +38,7 @@ def get_filters():
     months_str = ", ".join(MONTHS[:-1]).title() + ', or ' + MONTHS[-1].title()
     while month not in months:
         try:
-            month = input('\nChoose a month you would like to see data for:\n    ' + months_str + '\n    Type "all" to see data for all months. \n').lower().strip()
+            month = input('\nChoose a month you would like to see data for:\n    {}\n    Type "all" to see data for all months. \n'.format(months_str)).lower().strip()
             if month not in months:
                 print('\nInvalid month: Please type the name of a month in the list, or "all"')
         except Exception as e:
@@ -50,7 +50,7 @@ def get_filters():
     days_str = ", ".join(DAYS[:-1]).title() + ', or ' + DAYS[-1].title()
     while day not in days:
         try:
-            day = input('\nChoose a day you would like to see data for: \n    ' + days_str +  '\n    Type "all" to see data for all days. \n').lower().strip()
+            day = input('\nChoose a day you would like to see data for: \n    {}\n    Type "all" to see data for all days. \n'.format(days_str)).lower().strip()
             if day not in days:
                 print('\nInvalid day: Please type the name of a day, or "all"')
         except Exception as e:
